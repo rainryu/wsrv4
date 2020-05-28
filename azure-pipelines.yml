@@ -13,5 +13,5 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
-- script: dotnet build --configuration $(buildConfiguration)
+- script: dotnet build --configuration $(buildConfiguration) ./WebApplication4/WebApplication4.csproj
   displayName: 'dotnet build $(buildConfiguration)'
